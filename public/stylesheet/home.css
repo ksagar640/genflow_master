@@ -44,8 +44,21 @@ h2{
   margin-top: 20px;
 }
 
+ @media only screen and (max-width: 600px) {
+
+h1{
+  text-align: right;
+  font-size: 55px;
+  color: #ffffff;
+   line-height: 20px;
+  font-weight: 500;
+  
+}
+
   body {
     background-image: url("../images/AI.jpeg");
     background-repeat: repeat;
     background-position: right;
 }
+}
+
