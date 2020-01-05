@@ -62,28 +62,38 @@
     border-radius: 10px;
     margin: 20px;
    }
-   @media only screen and (max-width: 600px) {
-    .flex-container{
-      display: flex;
-      flex-direction: column;
-      border:none;
-    }
-    iframe{
-      margin: 10px;
-    }
-    .company-info{
-      margin:10px;
-      height: 100%
-      background:white;
-      border: 1px solid black;
-
-    }
-   }
    .brand{
     text-align: center;
     color: white;
     font-size: 50px;
    }
+   @media only screen and (max-width: 600px) {
+    .flex-container{
+     background: none;
+     display: inline-flex; 
+     flex-direction: column;
+     align-content:  space-between;
+     
+     border :none;
+    }
+    iframe{
+      
+      margin-top:40px;
+      margin-left:10px;
+      width:40vh; 
+    }
+    .company-info{
+      font-size: 10px;
+      padding:20px;
+      border-radius: 10px;
+      margin: 10px;
+      background:white;
+      border-right: none;
+      width: auto;
+      height: auto;
+    }
+   }
+   
   </style>
 <body>
 <% include ./Partials/header.ejs %> 
