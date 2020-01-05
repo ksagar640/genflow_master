@@ -4,9 +4,9 @@ body, html {
 
 body {
   background-image: url("../images/AI.jpeg");
-  height: 100%;
+  height: 100vh;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
 }
 .center {
