@@ -4,23 +4,26 @@
 
 .left1 {
 
-  width: 35%;
-  height: 570px;
+   width: 35%;
+  height: 625px;
   background: linear-gradient(to left, #99ff99 0%, #009933 100%);
  
-  margin-top: 0px;
+
   /*background-size: 35% 60%;*/
 }
+.row{
 
+  margin-bottom: 0px;
+}
 .container{
   margin-top: 200px;
   font-family: serif;
 }
 
 .fa {
-  padding: 10px;
-  font-size: 30px;
-  width: 30px;
+    padding: 5px;
+    font-size: 30px;
+    width: 41px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
