@@ -29,6 +29,8 @@
   <!-- <script src="semantic/semantic.min.js"></script> -->
   </head>
   <style>
+
+ 
     body{
       background: #536976;
       background: -webkit-linear-gradient(to right, #292E49,#536976);
@@ -37,30 +39,63 @@
     }
   .flex-container{
      display: flex;
-  height: auto;
+  height: 60%;
+  background: white;
   justify-content:space-between;
   margin:50px 15% 0 15%;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
    
   }
   .company-info{
+    margin-left:20px; 
     font-size: 20px;
-    border: 2px solid black;
-    background: white;
-    border-radius :10px;
-    padding: 10px;
-    width: 500px;
+    border-right: 1px solid black;
+      height: 95%;
+    
+    
+    width: 60%;
+   }
+   iframe{
+      
+    border-radius: 10px;
+    margin: 20px;
+   }
+   @media only screen and (max-width: 600px) {
+    .flex-container{
+      display: flex;
+      flex-direction: column;
+      border:none;
+    }
+    iframe{
+      margin: 10px;
+    }
+    .company-info{
+      margin:10px;
+      height: 100%
+      background:white;
+      border: 1px solid black;
+
+    }
+   }
+   .brand{
+    text-align: center;
+    color: white;
+    font-size: 50px;
    }
   </style>
 <body>
 <% include ./Partials/header.ejs %> 
 
 
-    <!-- <h1 class="brand"><span>GenFlow AI</span></h1> -->
+    <h1 class="brand">GenFlow AI</h1>
+
     <div class="flex-container">
     <div class="wrapper animated bounceInLeft company-info">
       <!-- <img src = "images/22.jpg" id ="logo1" > -->
       
-        <h1>GenFlow AI Pvt.Ltd</h1>
+        <h1>Contact Us</h1>
         <ul>
           <li><i class="fa fa-home fa-lg"></i> C-128, Old No. 28A,<br>
                                              &nbsp &nbsp &nbsp  Kh No. 31/21/1,<br>
@@ -85,7 +120,7 @@
       
       </div>
       <div >
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.4937411751835!2d77.0593903453568!3d28.674873522739865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d044a30fa6701%3A0x50e77437b4a23dce!2sNo.31%2F21%2C%201%2C%20Shivram%20Park%2C%20Nangloi%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1578219940809!5m2!1sen!2sin" width="300" height="300" frameborder="0" style="border:2px solid black; border-radius: 10px;" allowfullscreen=""></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.4937411751835!2d77.0593903453568!3d28.674873522739865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d044a30fa6701%3A0x50e77437b4a23dce!2sNo.31%2F21%2C%201%2C%20Shivram%20Park%2C%20Nangloi%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1578219940809!5m2!1sen!2sin" width="300" height="300" frameborder="0" style="" allowfullscreen=""></iframe>
     </div>
 <!-- 
       <script>
