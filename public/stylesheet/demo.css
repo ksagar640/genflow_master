@@ -1,6 +1,7 @@
 /* General Demo Style */
 
 body {
+     background-image: linear-gradient(-90deg, blue, white);
     font-family: 'Raleway', 'Arial', sans-serif;
     font-size: 13px;
     background: #fff url(../images/bg.jpg);

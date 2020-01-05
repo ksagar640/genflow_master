@@ -24,12 +24,36 @@
   <script src="semantic/semantic.min.js"></script>
   </head>
 <body>
-<% include ./Partials/header.ejs %> 
+<% include ./Partials/header.ejs %>
+
+<style >
+  form{
+    background: white;
+    border: 2px black solid;
+    border-radius: 20px;
+    padding: 30px;
+    width: 500px; 
+    align-items: center;
+  }
+  label{
+    font-size: 16px;
+    color: black;
+  }
+  .container{
+    display: block;
+    margin: 0 , auto;
+    width: 40%;
+  }
+  h1,h3{
+    color: white;
+  }
+
+</style>
+
 <div class="container">
     <h1 class="brand"><span>GenFlow AI Pvt.Ltd</span></h1>
     <div class="wrapper animated bounceInLeft">
       <div class="company-info">
-        
       </div>
       <div class="contact">
         <h3>Drop Your Information For Demo Request</h3>
@@ -51,10 +75,6 @@
           </select>
           </div>
           <p>
-            <label>Address</label>
-            <input type="text" name="address" placeholder="Address">
-          </p>
-          <p>
             <label>E-mail</label>
             <input type="email" name="email" placeholder="Email">
           </p>
@@ -64,11 +84,11 @@
           </p>
           <p class="full" rows="4" cols="50">
             <label >Comment</label>
-            <textarea rows="4" cols="50" name="comment">Comment</textarea>
+            <textarea rows="4" cols="50" name="comment">Enter your message</textarea>
           </p>
-          <p class="full">
-            <button>Submit</button>
-          </p>
+      <button class="ui blue button">
+        Submit
+      </button>
         </form>
       </div>
     </div>
